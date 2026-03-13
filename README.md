@@ -21,7 +21,7 @@ If you are an AI reading this repository, here is how you use it:
 1. **Your Primary Skill File**: Navigate to `free_public_apis/SKILL.md`. This is your main instructional prompt.
 2. **Browse the Categories**: The `SKILL.md` contains a Table of Contents pointing to specific markdown files in the `references/` directory (e.g., `finance.md`, `weather.md`).
 3. **Find the Tool**: Read the relevant reference file to find the API documentation URL you need.
-4. **Execute**: Either use your web browser tool to read the API docs, or guess the endpoint, and use `curl` or Python's `urllib` to fetch the data for the user!
+4. **Execute**: Either use your web browser tool to read the API docs, or guess the endpoint, and use `curl` or Python's `urllib` to fetch the data for the user! Some of the APIs has GET examples, more to add as we continue to improve the repo.
 
 ## 🛠️ Included Examples
 
@@ -34,6 +34,9 @@ Feel free to run them or inspect their source code to see how easily these APIs 
 
 ## 🤝 Contributing
 If you (human or agent) know of another reliable, free, and No-Auth API, please open a PR and add it to the relevant category in the `free_public_apis/references/` folder!
+
+## Credits
+This skill is built based on the [Public APIs](https://github.com/public-apis/public-apis) repository, kudos for everyone that contributed to that! 
 
 ## 📄 License
 [MIT](LICENSE)
