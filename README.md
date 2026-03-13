@@ -12,7 +12,7 @@ This repository solves that by providing a **massive, agent-friendly directory o
 
 If you are a human setting up your AI agent, **copy and paste the following prompt** to your agent to get it properly oriented with this repository:
 
-> "Hey! We are working in a repository that contains a massive directory of free, public, no-auth APIs. To understand how to find and use these APIs to fetch live data, please read the `free_public_apis/SKILL.md` file first. It acts as your primary instruction manual and contains a table of contents to all the available API categories."
+> "Hey! We are working in a repository that contains a massive directory of free, public, no-auth APIs. To understand how to find and use these APIs to fetch live data, please read the `https://github.com/xyd945/free-api-for-agents/blob/main/free_public_apis/SKILL.md` file first. It acts as your primary instruction manual and contains a table of contents to all the available API categories."
 
 ## 🧠 Instructions for AI Agents
 
