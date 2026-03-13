@@ -6,7 +6,7 @@ import styles from './page.module.css';
 export default function Home() {
   const [copied, setCopied] = useState(false);
 
-  const promptText = `Hey! We are working in a repository that contains a massive directory of free, public, no-auth APIs. To understand how to find and use these APIs to fetch live data, please read the \`free_public_apis/SKILL.md\` file first. It acts as your primary instruction manual and contains a table of contents to all the available API categories.`;
+  const promptText = `It's a repository that contains a massive directory of free, public, no-auth APIs. To understand how to find and use these APIs to fetch live data, please read the \`https://github.com/xyd945/free-api-for-agents/blob/main/free_public_apis/SKILL.md\` file first. It acts as your primary instruction manual and contains a table of contents to all the available API categories.`;
 
   const handleCopy = () => {
     navigator.clipboard.writeText(promptText);
@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <main className={styles.container}>
       <section className={styles.hero}>
-        <h1 className={styles.title}>Free APIs for AI Agents 🤖⚙️</h1>
+        <h1 className={styles.title}>Free APIs for AI Agents</h1>
         <p className={styles.subtitle}>
           A massive, zero-dependency directory of 100% Free, No-Auth, HTTPS public APIs. Built to give your AI Agents and LLMs reliable real-time web capabilities.
         </p>
@@ -30,7 +30,7 @@ export default function Home() {
             </button>
           </div>
           <div className={styles.promptText}>
-            "{promptText}"
+            "It's a repository that contains a massive directory of free, public, no-auth APIs. To understand how to find and use these APIs to fetch live data, please read the <a href="https://github.com/xyd945/free-api-for-agents/blob/main/free_public_apis/SKILL.md" target="_blank" rel="noopener noreferrer" className={styles.highlightedUrl}>https://github.com/xyd945/free-api-for-agents/blob/main/free_public_apis/SKILL.md</a> file first. It acts as your primary instruction manual and contains a table of contents to all the available API categories."
           </div>
         </div>
       </section>
@@ -52,7 +52,7 @@ export default function Home() {
       <section className={styles.examplesSection}>
         <h2 className={styles.sectionTitle}>Agent Build Examples</h2>
         <div className={styles.grid}>
-          
+
           <div className={styles.card}>
             <div className={styles.cardHeader}>
               <h3 className={styles.cardTitle}>🎭 Daily Wisdom & Fun Dashboard</h3>

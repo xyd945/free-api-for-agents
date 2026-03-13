@@ -90,6 +90,22 @@
   background: var(--accent);
 }
 
+.highlightedUrl {
+  color: var(--accent);
+  background: rgba(59, 130, 246, 0.15);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  text-decoration: none;
+  word-break: break-all;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.highlightedUrl:hover {
+  background: rgba(59, 130, 246, 0.25);
+  text-decoration: none;
+}
+
 /* ================= Stats Section ================= */
 .stats {
   display: flex;
