@@ -6,6 +6,7 @@ This file contains free, No-Auth, HTTPS APIs for this category.
 |---|---|---|
 | Advice Slip | Generate random advice slips | http://api.adviceslip.com/ |
 | Biriyani As A Service | Biriyani images placeholder | https://biriyani.anoram.com/ |
+| Bucketlist Dream of the Day | Daily travel and experience inspiration; Dutch/Netherlands defaults and optional language and world-scope filters | https://bucketlist.nl/brand/droom-van-de-dag.openapi.json |
 | Dictum | API to get access to the collection of the most inspiring expressions of mankind | https://github.com/fisenkodv/dictum |
 | icanhazdadjoke | The largest selection of dad jokes on the internet | https://icanhazdadjoke.com/api |
 | Inspiration | Motivational and Inspirational quotes | https://inspiration.goprogram.ai/docs/ |
