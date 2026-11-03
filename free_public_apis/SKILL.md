@@ -48,7 +48,7 @@ This skill provides you (the AI agent) with a massive directory of free, open (N
 - **Open Data** (17 APIs): See [`references/open_data.md`](references/open_data.md)
 - **Open Source Projects** (7 APIs): See [`references/open_source_projects.md`](references/open_source_projects.md)
 - **Patent** (2 APIs): See [`references/patent.md`](references/patent.md)
-- **Personality** (17 APIs): See [`references/personality.md`](references/personality.md)
+- **Personality** (18 APIs): See [`references/personality.md`](references/personality.md)
 - **Phone** (1 APIs): See [`references/phone.md`](references/phone.md)
 - **Photography** (5 APIs): See [`references/photography.md`](references/photography.md)
 - **Programming** (1 APIs): See [`references/programming.md`](references/programming.md)
